@@ -1,6 +1,6 @@
 (function($) {
  
-    $.fn.enlighten = function( options ) {
+    $.fn.iluminate = function( options ) {
 
         var settings = $.extend({
             size         : 100,
