@@ -12,3 +12,5 @@ $(".enlighten").enlighten({
 });
 
 Child spans will also get a shadow.
+
+Demo: http://sandbox.juan-i.com/flat/
