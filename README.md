@@ -6,7 +6,7 @@ Add those trendy flat shadows on stuff. Needs https://github.com/infusion/jQuery
 Set up size(int for pixels) and dropoff (0-1).
 
 For example: 
-$(".enlighten").enlighten({
+$(".enlighten").iluminate({
   size         : 100,
   dropoffStart : 0.6
 });
