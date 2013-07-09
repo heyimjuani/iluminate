@@ -1,0 +1,75 @@
+body, * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "ProximaNova-Regular", "Proxima Nova", sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#green {
+    background: #16a085;
+}
+
+#square {
+    width: 200px;
+    height: 200px;
+    background: #1abc9c;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 200px;
+    overflow: hidden;
+    margin: 100px auto 0;
+}
+
+#red {
+    background: #c0392b;
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #e74c3c;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 200px;
+    overflow: hidden;
+    margin: 100px auto 0;
+}
+
+#red, #green {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+#wip {
+    display: block;
+    width: 300px;
+    line-height: 25px;
+    padding: 15px 0;
+    text-align: center;
+    background: #2c3e50;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -150px;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+#wip small {
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+}
+#wip:hover {
+    background: #34495e;
+}
