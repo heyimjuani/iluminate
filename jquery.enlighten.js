@@ -1,6 +1,6 @@
 (function($) {
  
-    $.fn.enlighten = function( options ) {
+    $.fn.iluminate = function( options ) {
 
         var elSize = $(this).height();
 

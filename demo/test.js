@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$(".enlighten").enlighten({
+	$(".iluminate").iluminate({
 		size: 200,
 		textSize: 60,
 		alpha: 0.1,
