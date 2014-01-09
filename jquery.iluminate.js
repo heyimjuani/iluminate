@@ -13,13 +13,15 @@
             includeText  : true,
             textOnly     : false,
             alpha        : 0.05,
-            textAlpha    : 0.05
+            textAlpha    : 0.05,
+	    parent	 : null
         }, options);
 
         return this.each( function() {
 
             // parent bg color will determine the shadow color
-            var bg = $(this).parent().css("background-color");
+	    var parent = settings.parent ? $(this).parents(settings.parent).first() : $(this).parent();
+            var bg = parent.css("background-color");
             var darkerBG = $.xcolor.opacity(bg, 'black', settings.alpha);
 
             // generate shadows and offset
